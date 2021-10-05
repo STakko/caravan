@@ -9,11 +9,28 @@ a {
   text-decoration: none;
 }
 
+header,
+nav,
+h2,
+.main-visual,
+footer {
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 header {
   width: 90%;
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
+  position: relative;
+}
+
+.social {
+  display: inline-block;
+  margin-left: 20px;
+  position: absolute;
+  top: 22px;
+  right: 22px;
 }
 
 header .heading {
@@ -61,7 +78,7 @@ main {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  padding: 70px;
+  padding: 70px 0;
 }
 
 .blog {
@@ -164,6 +181,7 @@ main {
 
 .instagram-box {
   width: 110px;
+  padding-top: 110px;
   background-size: cover;
   background-position: center;
   margin-bottom: 10px;
